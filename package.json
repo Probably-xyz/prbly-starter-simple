@@ -1,0 +1,21 @@
+{
+  "name": "prbly-template-v1",
+  "version": "1.0.0",
+  "description": "A simple reusable template to be used for all future prbly projects already with equipped with all the fonts, color schemes, packages and much more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/*.html",
+    "build": "parcel build",
+    "css-build": "npx tailwindcss -i ./src/assets/css/styles.css -o ./src/assets/css/tailwind.css --watch"
+  },
+  "author": "NBK-01",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  }
+}
